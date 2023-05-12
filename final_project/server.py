@@ -3,7 +3,7 @@ from machinetranslation.translator import english_to_french, french_to_english
 
 app = Flask(__name__)
 
-@app.route('/home/project/xzceb-flask_eng_fr/final_project/templates/index.html')
+@app.route('/')
 def index():
     return render_template('index.html')
 
